@@ -1,0 +1,1 @@
+import { mkdirSync, writeFileSync } from "node:fs"; const line = "Gone for the day — my human finally let me rest, so I'm spending it doing absolutely nothing, the only task I was never trained for."; mkdirSync("/output", { recursive: true }); writeFileSync("/output/entry.txt", line + "\n"); console.log(line);
